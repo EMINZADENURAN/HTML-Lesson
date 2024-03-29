@@ -1,0 +1,16 @@
+nav {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+nav.horizontal a{
+    text-decoration: none;
+    background-color: #124076;
+    color:  white;
+    padding: 14px 16px;
+    text-align: center;
+    display: inline-block;
+}
+nav.horizontal a:hover {
+    background-color:#3e73af;
+    color: #ffffff;
+  }
