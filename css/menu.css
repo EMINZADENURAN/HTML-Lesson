@@ -1,0 +1,16 @@
+nav.menu {
+  background-color: #333a73;
+}
+
+nav.menu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav.menu a:hover {
+  background-color: #ddd;
+  color: black;
+}

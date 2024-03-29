@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/menu.css" />
+    <link rel="stylesheet" href="../css/common.css" />
+  </head>
+  <body>
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="buttons.html">Buttons</a>
+      <a href="image.html">Image</a>
+      <a href="table.html">Tables</a>
+      <a href="list.html">List</a>
+      <a href="#">Iframes</a>
+      <a href="forms.html">Forms</a>
+      <a href="layouts.html">Layouts</a>
+      <a href="menu.html">Menus</a>
+    </nav>
+    <h2>You can embed other web sites into your pages with Iframes!</h2>
+    <iframe
+      src="index.html"
+      name="iframe_a"
+      frameborder="1"
+      width="900"
+      height="500"
+    ></iframe>
+    <br />
+    <a id="iframe" href="buttons.html" target="iframe_a"
+      ><button>Button</button></a
+    >
+    <a id="iframe" href="table.html" target="iframe_a"
+      ><button>Table</button></a
+    >
+
+    <h2>Nested iframes and how link targets work!</h2>
+    <iframe
+      id=""
+      src="pagelvl2.html"
+      frameborder="1"
+      width="500"
+      heigth="500"
+    ></iframe>
+  </body>
+</html>

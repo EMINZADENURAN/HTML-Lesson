@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/common.css" />
+    <link rel="stylesheet" href="../css/menu.css" />
+  </head>
+  <body>
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="buttons.html">Buttons</a>
+      <a href="image.html">Image</a>
+      <a href="table.html">Tables</a>
+      <a href="list.html">List</a>
+      <a href="iframes.html">Iframes</a>
+      <a href="forms.html">Forms</a>
+      <a href="layouts.html">Layouts</a>
+      <a href="menu.html">Menus</a>
+    </nav>
+  </body>
+  <h2>With forms you can collect data from user</h2>
+  <form action="/action_page.php">
+    <label for="name">Your name:(user_name)(box size 40)</label><br>
+    <input type="text" id="name" name="name" value="" size="40"><br><br
+    <label for="lname">You surname:(disabled)</label><br>
+    <input type="text" id="sname" name="sname" value="" disabled><br><br
+    <label for="mail">Your email:(user_email)(autofocused)</label><br>
+    <input type="email" id="mail" name="mail" value="" autofocus><br><br>
+    <label for="password">Your password:(user_password)(minimum length 4 maximum length10)</label><br>
+    <input type="password" id="password" name="password" value="" minlength="4" maxlength="10"><br><br>
+    <label for="telephone">Your telephone:(user_tel)(match and suggestion)</label><br>
+    <input type="tel" id="telephone" name="telephone" value="" pattern="^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$"><br><br>
+    <label for="link">Your link:(user_link)</label><br>
+    <input type="url" id="link" name="link" value=""><br><br>
+    <label for="age">Your age:(user_age)(minimum 18 maximum 67)</label><br>
+    <input type="number" id="age" name="age" value="" min="18" max="67"><br><br>
+    <label for="profession">Your profession:(user_profession:[front-end,back-end,full-stack,network-admin,network-security])</label><br>
+    <select id="profession" name="profession">
+      <option value="front-end">Front-End</option>
+      <option value="back-end">Back-End</option>
+      <option value="full-stack">Full-stack</option>
+      <option value="network-admin">Network admin</option>
+      <option value="network-security">Network security</option>
+    </select><br><br>
+    <label for="codlag">Languages your know:</label><br>
+    <select name="codlag" id="code_language" multiple>
+     <option value="javascript">JavaScript</option>
+     <option value="python">Python</option>
+     <option value="cpp">C++</option>
+    </select><br><br>
+    <label for="favcolor">Your favorite color:</label><br>
+    <input type="color" id="favcolor" name="favcolor" value=""><br><br>
+    <label for="userrate">Your rate:(user_rate)(values:0,10,20...)</label><br>
+    <input type="range" value="20" step="10"><br><br>
+    <label for="date">Date of brith:(user_brithday)(mandatory)</label><br>
+    <input type="month"><br><br>
+    <label for="workexperience">Work experience:(user_experience_from,working_hour_to)</label><br>
+    From:<input type="time">
+    To:<input type="time"><br><br>
+    <label for="favmom">Your vaorite moment:(fav_moment)(initial date-time)</label><br>
+    <input type="datetime-local"><br><br>
+    <label for="fawweek">Your favorite week:(fav_week)</label><br>
+    <input type="datetime"><br><br>
+    <label for="user_cv">Your CV:(user_cv)</label><br>
+    <input type="file"><br><br>
+    <label for="user_gender">Gender:</label><br>
+    <input type="radio" id="gender" name="gender"> Male
+    <input type="radio" id="gender" name="gender"> Female
+    <br>
+    <br>
+    <label for="userlang">Languages:(user_language)</label><br>
+    <input type="checkbox">Azerbaijani
+    <input type="checkbox">Turkey
+    <input type="checkbox">English
+    <br>
+    <br>
+    <label for="usermessage">Your message:</label><br>
+    <textarea readonly="" name="" id="usermessage" cols="30" rows="10" placeholder="readonly"></textarea><br><br>
+    <fieldset>
+      <legend>Form Button</legend>
+
+      <input type="submit" value="Submit with input">
+      <input type="reset" value="Reset with input">
+
+      <button type="submit">Submit with button</button>
+      <button type="reset">Reset with button</button>
+
+      <button type="submit" formaction="https">Submit with w3school</button>
+      <button type="submit">Submit to current page</button>
+
+      <button type="submit">Submit with validate</button>
+      <button type="submit" formnovalidate>Submit without validate</button>
+
+      <button type="submit">Submit with get method</button>
+      <button type="submit" formmethod="post">Submit with post method</button>
+    </fieldset>
+    </form>
+  <h2>Buttons out of form</h2>
+  <button> Submit in current tab</button>
+  <button> Submit in new tab</button>
+</html>

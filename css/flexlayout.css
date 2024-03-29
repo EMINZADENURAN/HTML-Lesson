@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  color: #eeeeee;
+}
+
+body {
+  margin: 0;
+}
+
+header,
+aside,
+main,
+footer {
+  font-size: 32px;
+  padding: 24px;
+  text-align: center;
+}
+
+header,
+footer {
+  color: #eeeeee;
+}
+
+header {
+  background-color: #4f5c6f;
+}
+
+aside {
+  background-color: #989898;
+  flex: 3;
+}
+
+main {
+  background-color: #ffffff;
+  flex: 7;
+}
+
+footer {
+  background-color: #878787;
+}
+
+section {
+  display: flex;
+}

@@ -1,0 +1,98 @@
+a.btn {
+  text-decoration: none;
+  color: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  margin: 4px;
+  background-color: #3498db;
+}
+
+a.btn:hover {
+  background-color: #2980b9;
+}
+
+a.danger:hover {
+  background-color: #ff5b5b;
+}
+
+a.danger {
+  background-color: rgb(205, 0, 0);
+}
+ 
+a.succes:hover {
+background-color: rgb(75, 124, 75);
+}
+
+a.succes {
+  background-color: rgb(1, 100, 1);
+}
+ 
+a.warning:hover{
+  background-color:rgb(249, 203, 117) ;
+} 
+
+a.warning {
+  background-color: rgb(219, 142, 0);
+}
+
+a.info {
+  background-color: blue;
+}
+
+a.display {
+  padding: 16px;
+  border-radius: 8px;
+  margin: 4px;
+  background-color: #2980b9;
+  color: #fff;
+  text-decoration: none;
+}
+
+a.float {
+  padding: 16px;
+  border-radius: 8px;
+  margin: 4px;
+  background-color: #2980b9;
+  color: white;
+  text-decoration: none;
+}
+a.right {
+  padding: 16px;
+  border-radius: 8px;
+  margin: 4px;
+  background-color: #2980b9;
+  color: white;
+  text-decoration: none;
+}
+a.vertical {
+  padding: 16px;
+  border-radius: 8px;
+  margin: 4px;
+  background-color: #2980b9;
+  color: white;
+  text-decoration: none;
+}
+a.Float {
+  padding: 16px;
+  border-radius: 8px;
+  margin: 4px;
+  background-color: #2980b9;
+  color: white;
+  text-decoration: none;
+}
+a.Flexbox {
+  padding: 16px;
+  border-radius: 8px;
+  margin: 4px;
+  background-color: #2980b9;
+  color: white;
+  text-decoration: none;
+}
+a.Grid {
+  padding: 16px;
+  border-radius: 8px;
+  margin: 4px;
+  background-color: #2980b9;
+  color: white;
+  text-decoration: none;
+}

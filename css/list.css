@@ -1,0 +1,12 @@
+ul {
+  background-color: #333a73;
+  color: white;
+  padding: 20px 20px 20px 20px;
+  border-radius: 16px;
+}
+li {
+  background-color: darkblue;
+  padding: 8px;
+  border-radius: 16px;
+  margin: 4px;
+}

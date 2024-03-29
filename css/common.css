@@ -1,0 +1,13 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f3ff;
+}
+
+h1,
+h2,
+p {
+  color: rgb(30, 26, 26);
+}
+.img {
+  margin: 0px 0px 0px 0px;
+}
